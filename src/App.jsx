@@ -9,8 +9,10 @@ function App() {
     <BrowserRouter>
     <header>
       <h1>Davina's Portfolio</h1>
-      <Link to="/home">Home</Link>
-      <Link to="/about">About</Link>
+      <div id="nav">
+        <Link to="/home">Home </Link>
+        <Link to="/about">About </Link>
+      </div>
     </header>
 
     <Routes>
